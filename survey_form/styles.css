@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input, textarea, select {
+    border: none;
+    outline: none;
+}
+
+form {
+    width: 45%;
+    margin-top: 30px;
+    padding: 20px;
+    background: #061051;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form > label {
+    margin: 10px 0 10px;
+    color: #fff;
+}
+
+form > input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+div > label {
+    margin: 10px 0 10px;
+    color: #fff;
+}
+div > input,
+div > select,
+div > textarea {
+    width: 100%;
+    padding: 10px;
+}
+div > input,
+div > select {
+    border-radius: 5px;
+}
+
+div > textarea {
+    font-size: 1em;
+    height: 100px;
+    resize: vertical;
+}
+
+.radio-inputs > div,
+.check-inputs > div {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}   
+
+.radio-inputs > div input,
+.check-inputs > div input {
+    display: flex;
+}   
+.check-inputs > div input,
+.radio-inputs > div input {
+    width: 25px;
+}
+
+#submit {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1em;
+    background: #3fd55b;
+    color: #fff
+}
